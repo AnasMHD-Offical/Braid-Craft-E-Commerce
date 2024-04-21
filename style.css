@@ -81,3 +81,17 @@ header{
     display: none;
 
 }
+
+section{
+    padding: 70px 12% 80px;
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: var(--second-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
