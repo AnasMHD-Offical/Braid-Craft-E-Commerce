@@ -250,3 +250,42 @@ header.sticky{
 .row:hover .r-btn a{
     opacity: 1;
 }
+.cta-content{
+     padding: 120px 100px;
+     background: url(../img/cta.jpg);
+     background-size: cover;
+     background-position: center;
+}
+.cta-content h4{
+    font-size: 40px;
+    font-weight: 700;
+}
+.cta-content p{
+    width: 100%;
+    max-width: 600px;
+    font-size: var(--p-font);
+    line-height: 32px;
+    margin: 18px 0;
+}
+.c-search form{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    gap: 1rem;
+}
+.c-search form input:first-child{
+    display: inline-block;
+    width: 100%;
+    font-size:17px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.c-search form input:last-child{
+    width: 100%;
+    max-width: 180px;
+    display: inline-block;
+    padding: 16px 30px;
+    background: var(--main-color);
+    color: var(--bgcolor);
+    font-size: var(--p-font);
+    cursor: pointer;
+}
