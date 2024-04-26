@@ -289,3 +289,33 @@ header.sticky{
     font-size: var(--p-font);
     cursor: pointer;
 }
+.trending-contents{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    gap: 1.7rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.box h5{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.box h6{
+    font-size: 17px;
+    font-weight: 500;
+    color:var(--second-color)
+}
+.box{
+    transition: all .50s ease;
+}
+.box:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}
