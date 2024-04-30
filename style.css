@@ -354,3 +354,44 @@ header.sticky{
 .blog-box:hover h3{
     color: var(--main-color);
 }
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+   gap: 2rem;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.footer-box p{
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.footer-box .icons a{
+    display: inline-block;
+    font-size: 22px;
+    color: var(--second-color);
+    margin-right: 12px;
+    transition: all .6s;
+}
+.footer-box .icons a:hover{
+    transform: scale(1.1) translateY(-4px);
+    color: var(--main-color);
+}
+.footer-box a{
+    font-size: 17px;
+    color: var(--second-color);
+    margin-bottom: 0.8rem;
+    transition: all .50s ease;
+}
+.footer-box a:hover{
+    transform: translateY(-5px);
+    color: var(--text-color);
+}
